@@ -1,0 +1,74 @@
+.form{
+    /* justify-content: center; */
+    text-align: center;  
+}
+
+label {
+    text-align: left;
+    white-space: pre-wrap;  
+}
+
+#submit {
+    margin-top: 10px; 
+}
+
+.table {
+    border: 2px black solid;
+    border-collapse: separate;
+    margin: 100px 200px;
+    justify-content: center;
+    width: 50%;  
+}
+
+tr, td {
+    border: 1px red solid; 
+    text-align: center; 
+}
+
+td{
+    width: 120px; 
+}
+
+.container {
+    display: grid; 
+    padding: 20px; 
+    width: auto; 
+    height: 350px;
+    grid-template-areas: "a b c c "
+                         "a b d d "; 
+    /* grid-template-rows: 175px 175px; */
+    /* grid-template-columns: repeat(4,200px); */
+    background-color: blue; 
+}
+
+.a {
+    grid-area: a;
+    background-color: red;
+    margin:50px 30px;
+}
+
+.b{
+    grid-area: b; 
+    background-color: yellow;
+    margin:50px 30px; 
+}
+
+.c{
+    grid-area: c; 
+    background-color:green; 
+    margin:40px 20px; 
+
+}
+
+.d{
+    grid-area:d;
+    background-color: red;
+    margin:40px 20px; 
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+} 
+
+   
